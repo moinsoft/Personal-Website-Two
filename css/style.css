@@ -150,7 +150,10 @@ Review Section
 ===================================== */
 
 #review__area{
-  padding-bottom: 100px;
+  padding-bottom: 30px;
+  background-image: url(../assets/bg/footer-bg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .review{
@@ -161,10 +164,66 @@ Review Section
   box-shadow: 10px 10px 40px gray;
   border-radius: 15px;
   background-color: white;
-  padding: 2%;
+  padding: 4%;
 }
 
 .single__review p{
   font-size: 20px;
   margin-top: 30px;
+}
+
+/* ==================================
+Contact Section
+===================================== */
+
+.contact{
+  background: #EC4C7A;
+  margin: 10% 15%;
+  padding: 5%;
+  border-radius: 10px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.contact h1{
+  font-family: 'Itim', cursive;
+  font-weight: bold;
+  font-size: 3rem;
+  margin-top: 30px;
+}
+
+/* ==================================
+Footer Section
+===================================== */
+
+
+.footer__area{
+  background: #282A36;
+  color: #ffffff;
+  padding: 30px 0;
+  text-align: center;
+  
+}
+
+.courtesy{
+  font-weight: bold;
+  text-decoration: none;
+  color: #EC4C7A;
+}
+
+
+.jump a {
+  padding: 15px;
+  background: #282A36;
+  text-decoration: none;
+  font-weight: bold;
+  color: #ffffff;
+  border-radius: 50%;
+  margin-right: 20px;
+  box-shadow: 0px 0px 4px 2px red;
+  transition: all .3s linear;
+}
+
+.jump a:hover{
+  color: red;
 }
