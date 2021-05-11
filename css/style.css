@@ -14,3 +14,85 @@ body {
 img {
   width: 100%;
 }
+
+.container{
+  width: 80%;
+  margin: 0 auto;
+}
+
+.flex{
+  display: flex;
+  align-items: center;
+}
+
+.header__area{
+  background-image: url(../assets/bg/header-bg.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.menu{
+  padding: 50px 0;
+  text-align: center;
+}
+
+.menu ul li{
+  display: inline-block;
+}
+
+.menu ul li a{
+  text-decoration: none;
+  border: 2px solid #EC4C7A;
+  border-radius: 5px;
+  padding: 5px 25px;
+  margin: 0 20px;
+  font-family: 'Itim', cursive;
+  font-weight: bold;
+  font-size: 20px;
+  color: black;
+  text-transform: uppercase;
+  transition: all .3s linear;
+}
+
+.menu ul li a:hover{
+  background:#EC4C7A;
+  color: #ffffff;
+}
+
+.banner__description, .banner__img{
+  width: 50%;
+  padding: 2%;
+}
+
+.banner__description h1{
+  font-family: 'Itim', cursive;
+  font-weight: bold;
+  font-size: 3rem;
+  text-transform: uppercase;
+  
+}
+
+.name__highlight{
+
+  color: #EC4C7A;
+}
+
+.banner__description h3{
+  margin: 60px 0;
+}
+
+.link__btn{
+  text-decoration: none;
+  border: 2px solid #EC4C7A;
+  border-radius: 5px;
+  padding: 5px 25px;
+  font-weight: bold;
+  font-size: 20px;
+  color: black;
+  transition: all .3s linear;
+}
+
+.link__btn:hover{
+  background:#EC4C7A;
+  color: #ffffff;
+}
