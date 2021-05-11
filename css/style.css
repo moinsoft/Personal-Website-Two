@@ -144,3 +144,27 @@ Work Section
   padding: 2%;
   margin: 0 2%;
 }
+
+/* ==================================
+Review Section
+===================================== */
+
+#review__area{
+  padding-bottom: 100px;
+}
+
+.review{
+  text-align: center;
+}
+
+.single__review{
+  box-shadow: 10px 10px 40px gray;
+  border-radius: 15px;
+  background-color: white;
+  padding: 2%;
+}
+
+.single__review p{
+  font-size: 20px;
+  margin-top: 30px;
+}
